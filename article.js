@@ -22,7 +22,7 @@ const articleId = new URLSearchParams(window.location.search).get("id");
 const matchedArticle = articleTabs.find((tab) => tab.id === articleId);
 
 if (articleId && !matchedArticle) {
-  window.location.replace("./index.html#course");
+  window.location.replace("./index.html");
 }
 
 const article = matchedArticle ?? articleTabs[0];
