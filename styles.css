@@ -80,8 +80,8 @@ img {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2.6rem;
-  height: 2.6rem;
+  width: 3.4rem;
+  height: 3.4rem;
 }
 
 .site-nav__logo img {
@@ -97,7 +97,7 @@ img {
   align-items: center;
   justify-content: center;
   gap: 0.45rem;
-  padding-left: 3.3rem;
+  padding-left: 4.4rem;
 }
 
 .site-nav__link {
