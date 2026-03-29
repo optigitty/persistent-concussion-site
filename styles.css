@@ -1434,6 +1434,14 @@ img {
   padding-top: 1.65rem;
 }
 
+.about-story__body h2 {
+  margin: 0 0 0.15rem;
+  font-family: "Fraunces", Georgia, serif;
+  font-size: clamp(1.7rem, 2.8vw, 2.35rem);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+}
+
 .about-story__body p {
   margin: 0;
   max-width: 70ch;
