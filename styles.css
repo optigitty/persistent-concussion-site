@@ -61,27 +61,22 @@ img {
 .site-nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 1rem;
   padding: 0.9rem 1.1rem;
   margin-bottom: 1.15rem;
   border-radius: 22px;
 }
 
-.site-nav__brand,
 .site-nav__link {
   text-decoration: none;
-}
-
-.site-nav__brand {
-  font-weight: 800;
-  letter-spacing: 0.02em;
 }
 
 .site-nav__links {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   gap: 0.45rem;
 }
 
