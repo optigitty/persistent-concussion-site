@@ -84,6 +84,14 @@ img {
   height: 3.4rem;
 }
 
+.site-nav--single {
+  justify-content: flex-start;
+}
+
+.site-nav--single .site-nav__logo {
+  position: static;
+}
+
 .site-nav__logo img {
   width: 100%;
   height: 100%;
