@@ -85,7 +85,7 @@ img {
 }
 
 .site-nav--single {
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .site-nav--single .site-nav__logo {
@@ -1433,6 +1433,20 @@ img {
   height: 1.15rem;
   display: block;
   fill: currentColor;
+}
+
+.about-story__postscript {
+  margin: 0.85rem 0 0;
+  color: var(--ink-soft);
+  font-size: clamp(1rem, 1.5vw, 1.15rem);
+  line-height: 1.6;
+}
+
+.about-story__postscript a {
+  color: var(--brand);
+  font-weight: 700;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
 }
 
 .about-story__portrait {
